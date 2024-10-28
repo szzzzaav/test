@@ -23,12 +23,12 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">Welcome to my website</h1>
+          <h1 className="Welcome-text text-[20px]">Welcome to my website</h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[800px] w-auto h-auto"
         >
           <span>
             Through
@@ -72,20 +72,13 @@ const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center "
+        className="w-full h-full flex justify-center items-center flex-col"
       >
-        {/* <Image
-          src="/mainIconsdark.svg"
-          alt="work icons"
-          height={650}
-          width={650}
-        /> */}
         <Image
-          src="/images/face.jpg"
+          src="/images/euler.png"
           alt="work icons"
-          height={400}
-          width={400}
-          className="rounded-full border-1"
+          height={500}
+          width={500}
         />
       </motion.div>
     </motion.div>
