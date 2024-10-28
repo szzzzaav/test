@@ -63,6 +63,7 @@ const HeroContent = () => {
           </div>
         </motion.p>
         <motion.a
+          href="/more"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
@@ -80,6 +81,10 @@ const HeroContent = () => {
           height={500}
           width={500}
         />
+        <div className="text-rose-50">微信：1232456</div>
+        <div className="text-rose-50">QQ：1232456</div>
+        <div className="text-rose-50">邮箱：1232456</div>
+        <div className="text-rose-50">微信：1232456</div>
       </motion.div>
     </motion.div>
   );

@@ -3,18 +3,18 @@ nav {
   width: 60%;
 }
 
-@keyframes spin {
+/* @keyframes spin {
   0% {
     transform: rotate(0);
   }
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
-.spin {
+/* .spin {
   animation: spin 10s linear infinite;
-}
+} */
 
 @keyframes firstShow {
   0%,
